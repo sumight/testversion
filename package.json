@@ -1,0 +1,28 @@
+{
+  "name": "testversion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "rls": "conventional-changelog -p angular -i CHANGELOG.md -w -r 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sumight/testversion.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sumight/testversion/issues"
+  },
+  "homepage": "https://github.com/sumight/testversion#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "^1.2.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
